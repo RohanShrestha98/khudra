@@ -1,0 +1,1268 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.row {
+    display: inline-flex;
+}
+
+.col {
+    display: block;
+}
+
+body {
+    background: #F5F5F5;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.br {
+    border-right: 1px solid rgb(180, 176, 176);
+    padding-right: 10px;
+}
+
+.br i {
+    color: white;
+}
+
+.color a {
+    color: white;
+}
+
+.color a i {
+    font-size: 20px;
+}
+
+.color a:hover {
+    opacity: 70%;
+}
+
+.display_1 {
+    display: none;
+}
+
+.contact_info {
+    width: 100%;
+    background: #1E2022;
+    text-align: center;
+}
+
+.top_navigation {
+    color: white;
+    width: 1165px;
+    align-items: center;
+    padding: 6px 0px;
+    font-size: 13px;
+}
+
+.top_navigation i {
+    padding: 4px 10px;
+}
+
+.top_navigation a {
+    color: white;
+}
+
+.top_navigation a:hover {
+    opacity: 70%;
+}
+
+.number i {
+    color: #7A6FBE;
+}
+
+.mail i {
+    color: #7A6FBE;
+}
+
+.mail {
+    padding-left: 50px;
+}
+
+.sell {
+    margin-left: auto;
+}
+
+#menu_bar {
+    padding: 20px 30px;
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    background: white;
+    display: none;
+    margin-left: 0;
+    box-shadow: 0px 0px 5px 0px #7A6FBE;
+}
+
+.menubar_logo {
+    align-items: center;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.menubar_logo i {
+    margin-left: auto;
+    font-size: 25px;
+}
+
+.menubar_logo img {
+    width: 140px;
+}
+
+#menu_bar a {
+    color: #333e48;
+    width: 100%;
+    font-size: 0.875rem;
+}
+
+#menu_bar a p {
+    width: 100%;
+}
+
+.dropdown_css {
+    cursor: pointer;
+    padding: 7px 0px;
+    align-items: center;
+    width: 100%;
+    font-size: 14px;
+    color: #515B63;
+}
+
+.dropdown_css i {
+    margin-left: auto;
+}
+
+.dropdown_css_1 {
+    border-left: 2px solid #7A6FBE;
+    display: none;
+    padding-left: 20px;
+    color: #515B63;
+}
+
+.dropdown_css_1 a p {
+    padding: 7px 0px;
+}
+
+.dropdown_css_1 a p:hover {
+    color: #7A6FBE;
+}
+
+
+.heading_name p {
+    font-weight: bold;
+}
+
+header {
+    width: 100%;
+    background: #232F3E;
+}
+
+.logo_search {
+    width: 1165px;
+    margin: auto;
+    padding: 20px 0px;
+    align-items: center;
+}
+
+.menu {
+    align-content: center;
+}
+
+.menu_line {
+    width: 23px;
+    height: 2px;
+    background: white;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.logo img {
+    width: 130px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.search_bar {
+    padding-left: 55px;
+}
+
+.search_bar button {
+    background: none;
+    border: none;
+    outline: none;
+    margin-left: -5px;
+}
+
+.search_bar button i {
+    align-items: center;
+    padding: 10px 20px 14px 20px;
+    background: #7A6FBE;
+    color: white;
+    font-size: 17px;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.search_bar input {
+    width: 600px;
+    height: 40px;
+    border-radius: 20px 0px 0px 20px;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+}
+
+.left_header {
+    width: 260px;
+    margin-left: auto;
+}
+
+.insider {
+    color: white;
+    margin-left: auto;
+}
+
+.wishlist {
+    margin-left: auto;
+}
+
+.wishlist a {
+    font-weight: 700;
+}
+
+.cart {
+    margin-left: auto;
+}
+
+.cart a {
+    font-weight: bold;
+}
+
+.cart a i {
+    padding-right: 10px;
+}
+
+.bottom_navigation {
+    display: none;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    box-shadow: 0px 0px 5px 0px #232F3E;
+    background: white;
+    height: 55px;
+}
+
+.bottom_navigation .menu_items {
+    text-align: center;
+    margin: auto;
+}
+
+.menu_items a {
+    color: #444444;
+}
+
+.menu_items p {
+    font-size: 12px
+}
+
+.dep_sli_fea {
+    width: 1165px;
+    margin: 10px auto;
+}
+
+.slider_part {
+    width: 100%;
+}
+
+.department_heading {
+    width: 100%;
+    background: #7A6FBE;
+    color: white;
+}
+
+.department_heading p {
+    padding-left: 20px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.departments_item_list {
+    width: 24%;
+    height: 415px;
+    background: white;
+    overflow: auto;
+    padding-bottom: 20px;
+}
+
+.departments_item_list ul {
+    padding: 0px 20px;
+}
+
+.departments_item_list li {
+    font-size: 14px;
+    padding: 8px 0px;
+    width: 100%;
+    align-items: center;
+    cursor: pointer;
+}
+
+.departments_item_list ul li i {
+    margin-left: auto;
+}
+
+.drop_slide {
+    width: 54%;
+    margin: 0px 1%;
+    height: 415px;
+}
+
+.offer_slider {
+    width: 100%;
+}
+
+#descr {
+    box-shadow: 0px 0px 8px 0px #7A6FBE;
+    display: none;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: -1%;
+    width: 47%;
+    height: 370px;
+    background: white
+}
+
+#desc {
+    box-shadow: 0px 0px 8px 0px #7A6FBE;
+    display: none;
+    position: absolute;
+    margin-top: 45px;
+    margin-left: -1%;
+    width: 47%;
+    height: 365px;
+    background: white
+}
+
+#slider {
+    width: 100%;
+}
+
+
+.slides img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#dot {
+    text-align: center;
+    margin-top: -40px;
+}
+
+
+.scrollmenu {
+    overflow: scroll;
+    white-space: nowrap;
+}
+
+.top_products {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.top_products_1 {
+    display: inline-block;
+    margin-right: 2px;
+    width: 20%;
+    background: white;
+    height: 168px;
+}
+
+.top_products_1:hover {
+    box-shadow: 0px 0px 10px 0px gray;
+}
+
+
+.top_products_1 a img {
+    width: 80%;
+    margin: 10px 10%;
+}
+
+.top_products_1 p {
+    font-size: 13px;
+    width: 80px;
+    margin: auto;
+    overflow: hidden;
+    color: #232F3E;
+}
+
+.featured_items {
+    width: 20%;
+    height: 415px;
+}
+
+.featured_items img {
+    width: 100%;
+    margin: 5px;
+}
+
+.after_slider_part {
+    background: white;
+}
+
+.ads_products {
+    width: 85%;
+    margin: auto;
+    padding: 45px 0px;
+}
+
+.ads_products img {
+    width: 31%;
+    height: 135px;
+    margin-right: 2%;
+}
+
+.featured {
+    width: 1175px;
+    margin: auto;
+}
+
+.featured h5 {
+    font-weight: 400;
+    font-size: 22px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #7A6FBE;
+}
+
+.featured_product {
+    width: 100%;
+    margin-top: 15px;
+    padding: 15px;
+}
+
+.featured_product_1 {
+    display: inline-block;
+    width: 18%;
+    height: 300px;
+    background: white;
+    border-right: 1px solid gray;
+    padding: 20px;
+}
+
+.featured_product_1:hover {
+    box-shadow: 0px 0px 8px 0px gray;
+}
+
+.featured_product_1 p {
+    padding-bottom: 10px;
+    font-size: 13px;
+}
+
+.featured_product_1 h3 {
+    width: 120px;
+    overflow: auto;
+    font-size: 14px;
+    color: #0062BD;
+}
+
+.featured_product_1 h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: red;
+}
+
+.featured_product_1 img {
+    width: 80%;
+
+    margin: 10px 10%;
+}
+
+.shopping_cart {
+    width: 100%;
+}
+
+.shopping_cart i {
+    color: white;
+    background: #7A6FBE;
+    padding: 8px;
+    border-radius: 50%;
+    margin-left: auto;
+}
+
+.ratings {
+    width: 100%;
+}
+
+.ratings i {
+    font-size: 13px;
+}
+
+.ratings p {
+    font-size: 14px;
+    margin-top: -3px;
+    padding-left: 10px;
+}
+
+.top_categories {
+    width: 1175px;
+    padding: 20px 10px;
+
+}
+
+.top_categories_1 {
+    width: 250px;
+    height: 60px;
+    background: #f0eeee;
+    border-radius: 35px;
+    box-shadow: 0px 0px 5px 0px #7A6FBE;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.top_categories_1:hover {
+    box-shadow: 0px 0px 8px 0px #7A6FBE;
+}
+
+.top_categories_1 a img {
+    width: 70px;
+    height: 70px;
+    margin-top: -4px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 4px 0px #7A6FBE;
+}
+
+.top_categories_1 p {
+    align-self: center;
+    font-size: 10px;
+}
+
+.top_categories_1 h1 {
+    width: 170px;
+    overflow: hidden;
+    padding-left: 10px;
+    font-weight: 500;
+    color: #7A6FBE;
+}
+
+.budget_laptops {
+    padding: 10px 0px;
+}
+
+.budget_laptops_1 {
+    display: inline-block;
+    width: 18%;
+    height: 330px;
+    background: white;
+    border-right: 1px solid gray;
+    padding: 20px;
+    margin: 12px 8px;
+}
+
+.budget_laptops_1:hover {
+    box-shadow: 0px 0px 6px 0px gray;
+}
+
+.budget_laptops_1 p {
+    padding-bottom: 10px;
+    font-size: 13px;
+}
+
+.budget_laptops_1 h3 {
+    width: 150px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #0062BD;
+}
+
+.budget_laptops_1 h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: red;
+}
+
+.budget_laptops_1 img {
+    width: 80%;
+    margin: 10px 10%;
+}
+
+footer {
+    background: #232F3E;
+}
+
+.footer_info {
+    margin: auto;
+    width: 1175px;
+    color: white;
+    padding: 50px 0px;
+}
+
+.contact_info_footer {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.contact_info_footer p {
+    font-size: 13px;
+}
+
+.ask_question {
+    padding: 30px 0px;
+}
+
+.ask_question i {
+    font-size: 40px;
+    color: #3F5ABE;
+    padding-right: 10px;
+}
+
+.contact_us i {
+    color: #DADADA;
+    margin-top: 6px;
+    margin-right: 8px;
+    padding: 10px;
+    background: #333E48;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+.contact_us i:hover {
+    color: white;
+}
+
+.find_it_fast {
+    display: inline-block;
+    width: 17%;
+    vertical-align: top;
+    font-size: 13px;
+    color: #cdcdce;
+    cursor: pointer;
+}
+
+.find_it_fast h1 {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.mobile_app {
+    display: inline-block;
+    width: 18%;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+.mobile_app p {
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+
+.mobile_app img {
+    width: 80%;
+}
+
+.coustomer_care {
+    display: inline-block;
+    width: 18%;
+    vertical-align: top;
+    font-size: 13px;
+    color: #cdcdce;
+    cursor: pointer;
+}
+
+.coustomer_care h1 {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.copyright {
+    background: #1E2022;
+}
+
+.copyright p {
+    width: 85%;
+    color: white;
+    font-size: 15px;
+    padding: 5px 0px;
+    margin: auto;
+}
+
+.img_product_details {
+    width: 1175px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.small-img-row {
+    display: flex;
+}
+
+.small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+.image_display {
+    width: 30%;
+    vertical-align: top;
+    display: inline-block;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.main_img {
+    width: 100%;
+}
+
+.main_img img {
+    width: 100px;
+}
+
+.next_images {
+    display: inline-flex;
+    margin: auto;
+    width: 100%;
+}
+
+.next_img_1 {
+    margin-right: 2px;
+    border: 1px solid #a198da;
+}
+
+.next_img_1 img {
+    width: 100%;
+    padding: 5px;
+}
+
+.product_details_display {
+    width: 45%;
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 50px;
+    padding-left: 30px;
+}
+
+.product_details_display p {
+    font-size: 14px;
+    color: gray;
+}
+
+.product_details_display h1 {
+    font-weight: 600;
+    color: #333E48;
+}
+
+.product_details_display h4 {
+    color: #5CB85C;
+    padding-left: 5px;
+    align-self: center;
+    font-size: 15px;
+}
+
+.views_wishlist p {
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.social_media {
+    margin-top: 6px;
+}
+
+.social_media p {
+    margin-right: 6px;
+    font-size: 10px;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 20px;
+}
+
+.facebook_share {
+    background: #3B5998;
+}
+
+.twitter_share {
+    background: #1DA1F2;
+}
+
+.whatsapp_share {
+    background: #4FCE5D;
+}
+
+.viber_share {
+    background: #665CAC;
+}
+
+.weight {
+    margin-top: 10px;
+}
+
+hr {
+    color: gray;
+    opacity: 50%;
+    margin-top: 10px;
+}
+
+.product_price h2 {
+    color: #333E48;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.buy_now {
+    margin: 10px 0px;
+}
+
+.buy_now p {
+    margin-right: 10px;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 25px;
+}
+
+.add_cart p {
+    background: #7A6FBE;
+}
+
+.buy p {
+    background: #3BB19D;
+}
+
+.buy_now p:hover {
+    opacity: 80%;
+}
+
+.latest_products {
+    width: 23%;
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 1%;
+    margin-top: 50px;
+}
+
+.latest_product_1 {
+    padding: 0px 10px;
+    margin-top: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.latest_product_1:hover {
+    box-shadow: 0px 0px 5px 0px #1E2022;
+}
+
+.latest_product_img {
+    width: 30%;
+    margin-right: 2%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.latest_product_img img {
+    width: 100%;
+}
+
+.latest_product_details {
+    width: 66%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.latest_product_details p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.latest_product_details i {
+    font-size: 11px;
+}
+
+.latest_product_details h1 {
+    font-size: 16px;
+    color: #EE0000;
+    font-weight: 600;
+}
+.desc_heading{width: 60%;margin: auto;margin-bottom: -20px;}
+.desc_heading p{margin-right: 10px; display: inline-block;padding: 10px;}
+.desc_heading .hello{border-bottom: 2px solid #7A6FBE;}
+.product_description {
+    width: 80%;
+    border: 1px solid gray;
+    height: 300px;
+    margin: 20px auto;
+    padding: 40px 0px;
+}
+
+.product_description_details {
+    width: 90%;
+    border: 1px solid gray;
+    height: 220px;
+    margin: auto;
+}
+
+.onclick_searchbar {
+    padding-left: 55px;
+    position: absolute;
+    width: 100%;
+}
+
+.onclick_searchbar button {
+    background: none;
+    border: none;
+    outline: none;
+    margin-left: -5px;
+}
+#searchbar_click{display: none;}
+
+.onclick_searchbar button i {
+    align-items: center;
+    padding: 10px 20px 14px 20px;
+    background: #7A6FBE;
+    color: white;
+    font-size: 17px;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.onclick_searchbar input {
+    width: 70%;
+    height: 40px;
+    border-radius: 20px 0px 0px 20px;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+}
+
+
+
+
+
+
+@media (max-width:1175px) {
+    .top_navigation {
+        display: none;
+    }
+
+    .search_bar {
+        display: none;
+    }
+
+    .logo_search {
+        width: 85%;
+        padding: 8px 0px;
+    }
+
+    .display_1 {
+        display: block;
+    }
+
+    .none_1 {
+        display: none;
+    }
+
+    .left_header {
+        width: 120px;
+        margin-left: auto;
+    }
+
+    .cart a i {
+        padding-right: 0px;
+    }
+
+    .dep_sli_fea {
+        width: 85%;
+    }
+
+    .departments_item_list {
+        width: 30%;
+    }
+
+    .drop_slide {
+        width: 67%;
+        margin: 0px 1%;
+    }
+
+    .featured_items {
+        display: none;
+    }
+
+    .ads_products img {
+        width: 30%;
+    }
+
+    .featured {
+        width: 85%;
+    }
+
+    .featured_product_1 {
+        width: 23%;
+    }
+
+    .top_categories {
+        width: 100%;
+    }
+
+    .budget_laptops_1 {
+        width: 22%;
+    }
+
+    .footer_info {
+        width: 85%;
+    }
+
+    .img_product_details {
+        width: 85%;
+    }
+
+    .latest_products {
+        display: none;
+    }
+
+    .image_display {
+        width: 42%;
+    }
+
+    .product_details_display {
+        width: 57%;
+    }
+}
+
+@media (max-width:950px) {
+    .contact_info_footer {
+        width: 50%;
+        margin-bottom: 40px;
+    }
+
+    .mobile_app {
+        width: 30%;
+    }
+
+    .mobile_app img {
+        width: 60%;
+    }
+
+    .coustomer_care {
+        width: 50%;
+    }
+}
+
+@media (max-width:930px) {
+    .departments_item_list {
+        display: none;
+    }
+
+    .drop_slide {
+        width: 100%;
+        margin: 0px;
+        margin-bottom: 50px;
+    }
+
+    .ads_products {
+        padding: 20px 0px;
+    }
+
+    .featured_product_1 {
+        width: 28%;
+    }
+
+    .budget_laptops_1 {
+        width: 30%;
+    }
+}
+
+@media (max-width:880px) {
+    .ads_products img {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+}
+
+@media (max-width:750px) {
+    .bottom_navigation {
+        display: inline-flex;
+    }
+
+    .drop_slide {
+        margin-bottom: 10px;
+    }
+
+    .featured_product_1 {
+        width: 38%;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .image_display {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .product_details_display {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .main_img img {
+        width: 80%;
+        margin: 0px 10%;
+    }
+
+    .next_images {
+        width: 80%;
+        margin: 0px 10%;
+    }
+}
+
+@media (max-width:700px) {
+    .budget_laptops_1 {
+        width: 45%;
+        height: 360px;
+    }
+}
+
+@media (max-width:650px) {
+    .budget_laptops_1 {
+        width: 45%;
+        height: 350px;
+    }
+}
+
+@media (max-width:575px) {
+    .logo_search {
+        width: 95%;
+    }
+
+    .top_products_1 {
+        height: 130px;
+    }
+
+    .top_products_1 p {
+        width: 50px;
+    }
+
+    .dep_sli_fea {
+        width: 95%;
+    }
+
+    .top_categories {
+        width: 100%;
+    }
+
+    .drop_slide {
+        height: 320px;
+    }
+
+    .ads_products img {
+        width: 100%;
+        height: 120px;
+        margin-left: 0%;
+    }
+
+    .featured_product_1 {
+        width: 45%;
+    }
+
+    .budget_laptops_1 {
+        width: 45%;
+        height: 320px;
+    }
+
+}
+
+@media (max-width:500px) {
+    .drop_slide {
+        height: 300px;
+    }
+}
+
+@media (max-width:450px) {
+    .drop_slide {
+        height: 280px;
+    }
+
+    .ads_products img {
+        height: 100px;
+    }
+
+    .featured_product_1 {
+        width: 70%;
+    }
+
+    .budget_laptops_1 {
+        padding: 0px;
+        height: 280px;
+        margin: 12px 6px;
+    }
+
+
+    .budget_laptops_1 h3 {
+        width: 120px;
+        overflow: hidden;
+        font-size: 14px;
+        color: #0062BD;
+    }
+
+    .budget_laptops_1 h2 {
+        font-size: 16px;
+        font-weight: 400;
+        color: red;
+    }
+
+    .budget_laptops_1 img {
+        width: 80%;
+        margin: 5px 10%;
+    }
+
+    .shopping_cart i {
+        display: none;
+    }
+}
+
+@media (max-width:350px) {
+    .drop_slide {
+        height: 250px;
+    }
+
+    .ads_products img {
+        height: 80px;
+    }
+}
+
+@media (max-width:330px) {
+    .budget_laptops_1 {
+        width: 44%;
+        height: 250px;
+    }
+
+    .budget_laptops_1 h3 {
+        width: 100px;
+    }
+
+    .ratings p {
+        display: none;
+    }
+}
+
+@media (max-width:280px) {
+    .budget_laptops_1 {
+        width: 40%;
+        height: 250px;
+    }
+}

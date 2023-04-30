@@ -1,0 +1,143 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #F5F5F5;
+}
+
+.container {
+    width: 420px;
+    height: 480px;
+    background: white;
+    margin: auto;
+    margin-top: 60px;
+    box-shadow: 2px 2px 10px 2px rgb(196, 194, 194);
+}
+
+.row {
+    display: inline-flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    margin: auto;
+    width: 115px;
+}
+
+.logo img {
+    margin: 25px 0px 15px 0px ;
+    width: 100%;
+}
+
+form {
+    width: 80%;
+    margin: auto;
+}
+
+form p {
+    font-size: 14px;
+    color: rgb(138, 134, 134);
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+form input {
+    width: 100%;
+    height: 33px;
+    border: 1px solid rgb(189, 186, 186);
+    outline: none;
+    padding: 0px 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.click {
+    width: 14px;
+    height: 14px;
+    border: 1px solid gray;
+    align-items: center;
+    margin-right: 7px;
+}
+
+.remember_me {
+    width: 100%;
+}
+
+.remember_me h2 {
+    margin-top: -5px;
+    font-size: 15px;
+    margin-left: auto;
+    font-weight: 500;
+    color: white;
+    padding: 6px 25px;
+    background: #7A6FBE;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.remember_me h2:hover {
+    opacity: 80%;
+}
+
+.forgot_password {
+    margin-top: 40px;
+}
+
+.connect_with_fb {
+    margin-top: 20px;
+}
+
+.connect_with_fb p {
+    padding: 8px 40px;
+    margin-right: 10px;
+    border-radius: 20px;
+    font-weight: 600;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.connect_with_fb p:hover {
+    color: white;
+}
+
+.connect_facebook {
+    background: #EBEEF4;
+    color: #3B5998;
+}
+
+.connect_facebook:hover {
+    background: #3B5998;
+}
+
+.connect_google {
+    background: #FAECEA;
+    color: #D14130;
+}
+
+.connect_google:hover {
+    background: #D14130;
+}
+
+.signin {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+@media (max-width:500px) {
+    .container{width: 90%;}
+    .connect_with_fb p{padding: 8px 30px;}
+}
+@media (max-width:405px) {
+    .connect_with_fb p{padding: 8px 20px;}
+}
+@media (max-width:350px) {
+    .connect_with_fb p{padding: 8px 10px;}
+}
